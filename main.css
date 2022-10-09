@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+
+/*FUENTES*/
+@font-face {
+  font-family: "Roboto";
+  font-weight: 300;
+  src: url(/fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  src: url(/fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 500;
+  src: url(/fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  src: url(/fonts/Roboto/Roboto-Bold.ttf);
+}
+.b-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  margin: 5px;
+}
+.b-text--regular {
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #007e8b;
+}
+.b-text--light {
+  font-family: "Roboto";
+  font-weight: 300;
+  color: #007e8b;
+}
+.b-text--bold {
+  font-family: "Roboto";
+  font-weight: 700;
+  color: #025867;
+}
+
+.b-mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.b-headContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding: 30px;
+  height: 300px;
+}
+
+.b-titleName {
+  font-size: 2.5rem;
+}
+
+.b-input {
+  background-color: white;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid grey;
+  color: #FF5F5D;
+}
+
+.b-colorSec {
+  color: #FF5F5D;
+}
+
+.b-btn {
+  background-color: white;
+  margin: 5px;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+.b-btn:hover {
+  color: green;
+}
+
+.b-dayParraf {
+  margin: 20px;
+}
+
+.b-taskContainer {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.b-infoTask {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.b-divTask {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid grey;
+  color: #0d7e9e;
+}
+
+.b-trash {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.b-trash:hover {
+  color: rgb(180, 31, 31);
+}
+
+.b-check {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.b-check:hover {
+  color: rgb(49, 191, 49);
+}
+
+.line-through {
+  text-decoration: line-through;
+  color: grey;
+  background-color: rgb(224, 224, 224);
+}/*# sourceMappingURL=main.css.map */
